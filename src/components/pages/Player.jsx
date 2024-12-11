@@ -23,12 +23,9 @@ export default function Player() {
                     <p className="player__panel-title">Панель управления</p>
                     <div className="player__panel__wrap">
 
-                    <div className="player__panel-form">
-                        <p className="player__form-title">Координаты вражеского дрона</p>
-                        <input type="text" className="player__input"/>
-                        <input type="text" className="player__input"/>
-                        <input type="text" className="player__input"/>
-                    </div>
+                    <div className="player__panel-mock"></div>
+                    <div className="player__panel-mock"></div>
+                    <div className="player__panel-mock"></div>
                     <div className="player__panel-buttons">
                         <button onClick={connect} className="player__button">
                             <img className="player__button-img" src={Start} alt="" />
